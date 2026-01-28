@@ -197,7 +197,7 @@
 						<div class="inner">
 							<section>
 								<h2>Get in touch</h2>
-								<form method="post" action="#">
+								<form id="contact-form">
 									<div class="fields">
 										<div class="field half">
 											<input type="text" name="name" id="name" placeholder="Name" />
@@ -239,10 +239,34 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+
+<script>
+  emailjs.init("T54oBi8vYLWth7tsQ");
+
+  document.getElementById("contact-form").addEventListener("submit", function(e) {
+    e.preventDefault();
+
+    emailjs.sendForm(
+      "service_kimtukt",
+      "template_tr1fzvr",
+      this
+    ).then(
+      function() {
+        alert("Message sent!");
+      },
+      function(error) {
+        alert("Failed to send message.");
+        console.log(error);
+      }
+    );
+  });
+</script>
 
 	</body>
 
 </html>
+
 
 
 
