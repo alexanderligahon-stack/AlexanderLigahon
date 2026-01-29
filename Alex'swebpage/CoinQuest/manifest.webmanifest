@@ -1,0 +1,12 @@
+{
+  "name": "CoinQuest",
+  "short_name": "CoinQuest",
+  "id": "com.example.gamename",
+  "description": "Conquest through Coins.",
+  "orientation": "any",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "black",
+  "categories": ["games", "entertainment"],
+  "icons": []
+}
