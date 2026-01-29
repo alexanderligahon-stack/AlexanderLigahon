@@ -5,6 +5,7 @@
 	Phantom by HTML5 UP
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+
 */
 
 html, body, div, span, applet, object,
@@ -3327,3 +3328,14 @@ input, select, textarea {
 			}
 
 		}
+/* Game Project iframe styling */
+.game-frame {
+    width: 100%;          /* fills container width */
+    max-width: 800px;     /* limits maximum width */
+    height: 450px;        /* adjust this to your game size */
+    border: none;         /* removes default border */
+    display: block;
+    margin: 20px auto;    /* centers the iframe */
+    border-radius: 10px;  /* optional: rounded corners */
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2); /* optional shadow */
+}
