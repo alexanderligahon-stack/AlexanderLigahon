@@ -3339,3 +3339,26 @@ input, select, textarea {
     border-radius: 10px;  /* optional: rounded corners */
     box-shadow: 0 4px 15px rgba(0,0,0,0.2); /* optional shadow */
 }
+
+.game-container {
+    text-align: center;  /* centers everything inside */
+    margin-bottom: 20px; /* adds spacing below */
+}
+
+.full-page-link {
+    display: inline-block;    /* lets us style it nicely */
+    margin-top: 10px;         /* space between iframe and link */
+    font-weight: bold;
+    color: #333;              /* change color as needed */
+    text-decoration: none;    /* removes underline */
+    border: 2px solid #333;  /* optional: makes it look like a button */
+    padding: 5px 15px;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+.full-page-link:hover {
+    background-color: #333;
+    color: #fff;
+}
+
