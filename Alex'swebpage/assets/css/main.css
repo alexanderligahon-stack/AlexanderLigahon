@@ -3339,6 +3339,10 @@ input, select, textarea {
     border-radius: 10px;  /* optional: rounded corners */
     box-shadow: 0 4px 15px rgba(0,0,0,0.2); /* optional shadow */
 }
+#main h1 {
+    text-align: left;
+}
+
 
 .game-container {
     text-align: center;  /* centers everything inside */
@@ -3361,4 +3365,5 @@ input, select, textarea {
     background-color: #333;
     color: #fff;
 }
+
 
